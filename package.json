@@ -1,0 +1,23 @@
+{
+  "name": "devrel-roles",
+  "version": "0.1.0",
+  "description": "Presentation about defining the roles within Developer Relations",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "author": {
+    "name": "Phil Leggetter",
+    "email": "phil@leggetter.co.uk",
+    "url": "https://leggetter.co.uk"
+  },
+  "license": "CC-BY-SA-4.0",
+  "private": false,
+  "dependencies": {
+    "@marp-team/marp-cli": "^0.23.2"
+  },
+  "scripts": {
+    "preview": "marp -p slides.md",
+    "browser": "marp -s -w ."
+  }
+}
